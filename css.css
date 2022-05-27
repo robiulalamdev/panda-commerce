@@ -1,8 +1,12 @@
 body{
-    padding: 0% 250px 0% 250px;
+    
+}
+.justify-content-end{
+    position: relative;
+    left: 150px;
 }
 .carousel{
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .orange-bg{
     background-color: #FEEAE9;
@@ -19,4 +23,26 @@ body{
     background-image: linear-gradient(to bottom,#ff589b 0%, #FF136F 100%);
     border-radius: 5px;
     padding: 5px 20px;
+}
+.categories{
+    margin-top: 50px;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(25deg, #FF9C35, tomato);
+}
+.cat2{
+    background-color: #fd5196;
+}
+.cat3{
+    background-image: linear-gradient(#4289FF, #1b71fc);
 }
