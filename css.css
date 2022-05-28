@@ -10,6 +10,7 @@ body{
 }
 .orange-bg{
     background-color: #FEEAE9;
+    border-radius: 10px;
 }
 .carousel-item{
     padding: 20px 50px;
@@ -20,7 +21,7 @@ body{
 .buy-now-button{
     border: none;
     color: white;
-    background-image: linear-gradient(to bottom,#ff589b 0%, #FF136F 100%);
+    background-image: linear-gradient(to bottom,#f869a2 0%, #ff0a68 100%);
     border-radius: 5px;
     padding: 5px 20px;
 }
@@ -50,7 +51,37 @@ body{
     width: 200px;
     height: 150px;
 }
-.card{
-    border: 1px solid blue;
-    box-shadow: 5px 5px 10px lightgray;
+#b-shadow{
+    border: none;
+    box-shadow: 5px 5px 15px gray;
+    height: 500;
+    border-radius: 10px;
+}
+.backpack img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 70px;
+}
+#card-footer{
+    background-color: white;
+    border-top: none;
+    padding: 15px;
+}
+#subscribe{
+    width: 900px;
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+.bg{
+    background-color: white;
+    height: 400px;
+}
+.t-align{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
